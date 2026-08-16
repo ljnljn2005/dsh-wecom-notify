@@ -16,11 +16,11 @@ DSH（DeepSeek Harness）插件：当 **任务完成**、**任务报错** 或 **
 
 ## 安装
 
-从 GitHub 拉取安装（固定到 `dsh-plugin` tag；去掉 `#dsh-plugin` 则跟随默认分支最新提交）：
+从 GitHub 拉取安装（可固定到某个 commit；去掉 `#<commit>` 则跟随默认分支最新提交）：
 
 ```sh
-dsh plugin --profile web add github:ljnljn2005/dsh-wecom-notify#dsh-plugin
-dsh plugin --profile headless add github:ljnljn2005/dsh-wecom-notify#dsh-plugin   # 可选
+dsh plugin --profile web add github:ljnljn2005/dsh-wecom-notify#f729370121d333794a5a76734ea77021535a7b6e
+dsh plugin --profile headless add github:ljnljn2005/dsh-wecom-notify   # 可选
 ```
 
 然后在 profile 的 `cordis.patch.yml` 中启用并配置：
