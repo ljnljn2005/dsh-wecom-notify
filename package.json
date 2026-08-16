@@ -1,0 +1,21 @@
+{
+  "name": "dsh-wecom-notify",
+  "description": "DSH plugin: notify WeChat Work (企业微信群机器人 webhook) when a task completes, errors, or needs user input. Text by default, markdown optional.",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@deepseek-ai/schemastery": "^3.18.1"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1"
+  }
+}
