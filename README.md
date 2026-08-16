@@ -16,10 +16,11 @@ DSH（DeepSeek Harness）插件：当 **任务完成**、**任务报错** 或 **
 
 ## 安装
 
-本仓库已为 `web` 与 `headless` 两个 profile 完成安装与配置（`dsh plugin --profile <name> add file:/root/dshplugins/dsh-wecom-notify`，并在各 profile 的 `cordis.patch.yml` 写入了 webhook 配置）。其他 profile 安装方式：
+从 GitHub 拉取安装：
 
 ```sh
-dsh plugin --profile <你的profile> add file:/root/dshplugins/dsh-wecom-notify
+dsh plugin --profile web add github:ljnljn2005/dsh-wecom-notify
+dsh plugin --profile headless add github:ljnljn2005/dsh-wecom-notify   # 可选
 ```
 
 然后在 profile 的 `cordis.patch.yml` 中启用并配置：

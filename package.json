@@ -12,6 +12,20 @@
     "lib"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljnljn2005/dsh-wecom-notify.git"
+  },
+  "keywords": [
+    "dsh",
+    "deepseek-harness",
+    "plugin",
+    "wecom",
+    "wechat-work",
+    "webhook",
+    "notify",
+    "notification"
+  ],
   "dependencies": {
     "@deepseek-ai/schemastery": "^3.18.1"
   },
